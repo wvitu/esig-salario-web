@@ -42,8 +42,8 @@ public class SalarioService {
             }
 
             PessoaSalarioConsolidado consolidado = new PessoaSalarioConsolidado();
-            consolidado.setPessoaId(pessoaId);
-            consolidado.setNomePessoa(nomePessoa);
+            consolidado.setPessoaId(2);
+            consolidado.setNomePessoa("p");
             consolidado.setNomeCargo(nomeCargo);
             consolidado.setSalario(salario);
 

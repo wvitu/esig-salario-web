@@ -8,9 +8,6 @@ import java.math.BigDecimal;
 public class PessoaSalarioConsolidado {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
-
     @Column(name = "pessoa_id")
     private Integer pessoaId;
 
@@ -23,9 +20,6 @@ public class PessoaSalarioConsolidado {
     private BigDecimal salario;
 
     // Getters e Setters
-    public Integer getId() { return id; }
-    public void setId(Integer id) { this.id = id; }
-
     public Integer getPessoaId() { return pessoaId; }
     public void setPessoaId(Integer pessoaId) { this.pessoaId = pessoaId; }
 
