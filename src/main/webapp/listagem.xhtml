@@ -8,28 +8,30 @@
 <h:body>
     <h1>Lista de Pessoas com Salários</h1>
 
-    <h:dataTable value="#{pessoaSalarioBean.listaPessoas}" var="p" border="1">
-        <h:column>
-            <f:facet name="header">ID</f:facet>
-            #{p.pessoaId}
-        </h:column>
-        <h:column>
-            <f:facet name="header">Nome</f:facet>
-            #{p.nomePessoa}
-        </h:column>
-        <h:column>
-            <f:facet name="header">Cargo</f:facet>
-            #{p.nomeCargo}
-        </h:column>
-        <h:column>
-            <f:facet name="header">Salário</f:facet>
-            R$ #{p.salario}
-        </h:column>
-
-    </h:dataTable>
     <h:form>
-        <h:commandButton value="Calcular/Recalcular Salários" action="#{pessoaSalarioBean.calcularSalarios}" />
+        <h:commandButton value="Calcular / Recalcular Salários"
+                         action="#{pessoaSalarioBean.recalcularSalarios}" />
+
+        <h:dataTable value="#{pessoaSalarioBean.listaPessoas}" var="p" border="1">
+            <h:column>
+                <f:facet name="header">ID</f:facet>
+                #{p.pessoaId}
+            </h:column>
+            <h:column>
+                <f:facet name="header">Nome</f:facet>
+                #{p.nomePessoa}
+            </h:column>
+            <h:column>
+                <f:facet name="header">Cargo</f:facet>
+                #{p.nomeCargo}
+            </h:column>
+            <h:column>
+                <f:facet name="header">Salário</f:facet>
+                R$ #{p.salario}
+            </h:column>
+        </h:dataTable>
     </h:form>
+
 
 </h:body>
 </html>
