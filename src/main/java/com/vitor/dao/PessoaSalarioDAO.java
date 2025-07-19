@@ -5,7 +5,6 @@ import com.vitor.model.PessoaSalarioConsolidado;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
-import java.math.BigDecimal;
 import java.util.List;
 
 public class PessoaSalarioDAO {
@@ -25,7 +24,6 @@ public class PessoaSalarioDAO {
         EntityManager em = emf.createEntityManager();
         em.getTransaction().begin();
 
-        // Limpa a tabela antes de inserir novamente
         em.createNativeQuery("DELETE FROM pessoa_salario_consolidado").executeUpdate();
 
         em.createNativeQuery("""

@@ -12,16 +12,32 @@ public class Cargo {
 
     private String nome;
 
+    // Relacionamento com Pessoa (um cargo pode ter várias pessoas)
     @OneToMany(mappedBy = "cargo")
     private List<Pessoa> pessoas;
 
     // Getters e Setters
-    public Integer getId() { return id; }
-    public void setId(Integer id) { this.id = id; }
+    public Integer getId() {
+        return id;
+    }
 
-    public String getNome() { return nome; }
-    public void setNome(String nome) { this.nome = nome; }
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
-    public List<Pessoa> getPessoas() { return pessoas; }
-    public void setPessoas(List<Pessoa> pessoas) { this.pessoas = pessoas; }
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public List<Pessoa> getPessoas() {
+        return pessoas;
+    }
+
+    public void setPessoas(List<Pessoa> pessoas) {
+        this.pessoas = pessoas;
+    }
 }

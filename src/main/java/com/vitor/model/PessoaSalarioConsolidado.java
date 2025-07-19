@@ -19,7 +19,6 @@ public class PessoaSalarioConsolidado {
 
     private BigDecimal salario;
 
-    // Getters e Setters
     public Integer getPessoaId() { return pessoaId; }
     public void setPessoaId(Integer pessoaId) { this.pessoaId = pessoaId; }
 

@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21c9b0f2-4fac-4c0f-a3f4-312981dcbac0" name="Changes" comment="salvo">
+    <list default="true" id="21c9b0f2-4fac-4c0f-a3f4-312981dcbac0" name="Changes" comment="Print de tela adicionado para README">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vitor/bean/PessoaSalarioBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vitor/bean/PessoaSalarioBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vitor/dao/PessoaSalarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vitor/dao/PessoaSalarioDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vitor/model/Cargo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vitor/model/Cargo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vitor/model/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vitor/model/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vitor/model/PessoaSalarioConsolidado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vitor/model/PessoaSalarioConsolidado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/listagem.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/listagem.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -104,9 +111,6 @@
       <option name="catalinaBase" value="C:\Users\vitor.dev\.SmartTomcat\esig-salario-web\esig-salario-web" />
       <option name="contextPath" value="/esig-salario-web" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
-      <option name="envOptions">
-        <map />
-      </option>
       <option name="extraClassPath" value="" />
       <option name="tomcatInfo">
         <TomcatInfo>
@@ -211,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752897990001</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Print de tela adicionado para README">
+      <option name="closed" value="true" />
+      <created>1752900863571</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1752900863571</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,29 +259,20 @@
     <MESSAGE value="implementação completa da atividade técnica com JSF, PostgreSQL e cálculo de salários&#10;&#10;criação da estrutura do banco de dados com as tabelas pessoa, cargo, vencimentos e cargo_vencimentos.  Criação da tabela pessoa_salario_consolidado com cálculo de salário conforme créditos e débitos.️ Importação e tratamento dos dados do Excel original para PostgreSQL.️ Implementação da aplicação web com JSF (Jakarta Faces) e JPA (Hibernate).️ Tela de listagem com nome, cargo e salário das pessoas.️ Botão funcional para calcular e recalcular salários consolidados.️ Correção de escopo com @ViewScoped, mapeamentos e integração com Tomcat&#10;&#10;Entrega completa conforme os requisitos obrigatórios do desafio." />
     <MESSAGE value="DAO adicionado: Separa regras de negócio da persistência. &#10;PessoaSalarioDAO.java: acessa o banco e executa o cálculo de salários.&#10;PessoaSalarioService.java: para isolar lógica de negócios&#10;&#10;O Bean apenas chama dao.listar() e dao.calcularSalarios()" />
     <MESSAGE value="salvo" />
-    <option name="LAST_COMMIT_MESSAGE" value="salvo" />
+    <MESSAGE value="Print de tela adicionado para README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Print de tela adicionado para README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/vitor/dao/PessoaSalarioDAO.java</url>
-          <line>32</line>
+          <line>30</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/vitor/dao/PessoaSalarioDAO.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/vitor/dao/PessoaSalarioDAO.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/vitor/dao/PessoaSalarioDAO.java</url>
-          <line>38</line>
+          <line>36</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
