@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="21c9b0f2-4fac-4c0f-a3f4-312981dcbac0" name="Changes" comment="DAO adicionado: Separa regras de negócio da persistência. &#10;PessoaSalarioDAO.java: acessa o banco e executa o cálculo de salários.&#10;PessoaSalarioService.java: para isolar lógica de negócios&#10;&#10;O Bean apenas chama dao.listar() e dao.calcularSalarios()">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;wvitu&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/wvitu/esig-salario-web.git&quot;,
+    &quot;accountId&quot;: &quot;4716b8bf-8ff8-4ca5-91ee-8bd23d4b55c0&quot;
+  }
+}</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2zyXLyDExItpDi0TzhUzMde5GxF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.TestaConexao.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Smart Tomcat.Tomcat 10.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalResources&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.vitor.repository" />
+      <recent name="com.vitor.bean" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Smart Tomcat.Tomcat 10">
+    <configuration name="TestaConexao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vitor.TestaConexao" />
+      <module name="esig-salario-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 10" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="C:\Users\vitor.dev\.SmartTomcat\esig-salario-web\esig-salario-web" />
+      <option name="contextPath" value="/esig-salario-web" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/10.1.43" />
+          <option name="path" value="$PROJECT_DIR$/../../../../../apache-tomcat-10.1.43" />
+          <option name="version" value="10.1.43.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="esig-salario-web" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TestaConexao" />
+      <item itemvalue="Smart Tomcat.Tomcat 10" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestaConexao" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21c9b0f2-4fac-4c0f-a3f4-312981dcbac0" name="Changes" comment="" />
+      <created>1752704236321</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752704236321</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Estrutura inicial do projeto esig-salario-web com Maven. Adicionadas dependências do JSF (jakarta.faces), JPA com Hibernate, PostgreSQL driver e Servlet API. Projeto pronto para iniciar estrutura de entidades e páginas JSF.">
+      <option name="closed" value="true" />
+      <created>1752704728834</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752704728834</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: estrutura inicial de pacotes e arquivos JSF/JPA&#10;Adiciona estrutura base do projeto com pacotes Java, configuração do JPA (persistence.xml), arquivo de inicialização do JSF (web.xml) e página inicial index.xhtml.">
+      <option name="closed" value="true" />
+      <created>1752709043660</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752709043660</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: adiciona entidade Pessoa com mapeamento JPA(Corrige falha de importação jakarta nas dependencias do pom)">
+      <option name="closed" value="true" />
+      <created>1752720090713</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1752720090713</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: adiciona entidade Cargo com mapeamento JPA">
+      <option name="closed" value="true" />
+      <created>1752720193423</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1752720193423</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: adiciona entidade vencimento com mapeamento JPA">
+      <option name="closed" value="true" />
+      <created>1752721182378</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1752721182378</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: adiciona entidade cargovencimento com mapeamento JPA&#10;SalarioService criado&#10;metodo de calculo de salario aplicado">
+      <option name="closed" value="true" />
+      <created>1752721924395</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1752721924395</updated>
+    </task>
+    <task id="LOCAL-00007" summary="implementação completa da atividade técnica com JSF, PostgreSQL e cálculo de salários&#10;&#10;criação da estrutura do banco de dados com as tabelas pessoa, cargo, vencimentos e cargo_vencimentos.  Criação da tabela pessoa_salario_consolidado com cálculo de salário conforme créditos e débitos.️ Importação e tratamento dos dados do Excel original para PostgreSQL.️ Implementação da aplicação web com JSF (Jakarta Faces) e JPA (Hibernate).️ Tela de listagem com nome, cargo e salário das pessoas.️ Botão funcional para calcular e recalcular salários consolidados.️ Correção de escopo com @ViewScoped, mapeamentos e integração com Tomcat&#10;&#10;Entrega completa conforme os requisitos obrigatórios do desafio.">
+      <option name="closed" value="true" />
+      <created>1752812204418</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1752812204418</updated>
+    </task>
+    <task id="LOCAL-00008" summary="DAO adicionado: Separa regras de negócio da persistência. &#10;PessoaSalarioDAO.java: acessa o banco e executa o cálculo de salários.&#10;PessoaSalarioService.java: para isolar lógica de negócios&#10;&#10;O Bean apenas chama dao.listar() e dao.calcularSalarios()">
+      <option name="closed" value="true" />
+      <created>1752885039219</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1752885039219</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Estrutura inicial do projeto esig-salario-web com Maven. Adicionadas dependências do JSF (jakarta.faces), JPA com Hibernate, PostgreSQL driver e Servlet API. Projeto pronto para iniciar estrutura de entidades e páginas JSF." />
+    <MESSAGE value="feat: estrutura inicial de pacotes e arquivos JSF/JPA&#10;Adiciona estrutura base do projeto com pacotes Java, configuração do JPA (persistence.xml), arquivo de inicialização do JSF (web.xml) e página inicial index.xhtml." />
+    <MESSAGE value="feat: adiciona entidade Pessoa com mapeamento JPA(Corrige falha de importação jakarta nas dependencias do pom)" />
+    <MESSAGE value="feat: adiciona entidade Cargo com mapeamento JPA" />
+    <MESSAGE value="feat: adiciona entidade vencimento com mapeamento JPA" />
+    <MESSAGE value="feat: adiciona entidade cargovencimento com mapeamento JPA&#10;SalarioService criado&#10;metodo de calculo de salario aplicado" />
+    <MESSAGE value="implementação completa da atividade técnica com JSF, PostgreSQL e cálculo de salários&#10;&#10;criação da estrutura do banco de dados com as tabelas pessoa, cargo, vencimentos e cargo_vencimentos.  Criação da tabela pessoa_salario_consolidado com cálculo de salário conforme créditos e débitos.️ Importação e tratamento dos dados do Excel original para PostgreSQL.️ Implementação da aplicação web com JSF (Jakarta Faces) e JPA (Hibernate).️ Tela de listagem com nome, cargo e salário das pessoas.️ Botão funcional para calcular e recalcular salários consolidados.️ Correção de escopo com @ViewScoped, mapeamentos e integração com Tomcat&#10;&#10;Entrega completa conforme os requisitos obrigatórios do desafio." />
+    <MESSAGE value="DAO adicionado: Separa regras de negócio da persistência. &#10;PessoaSalarioDAO.java: acessa o banco e executa o cálculo de salários.&#10;PessoaSalarioService.java: para isolar lógica de negócios&#10;&#10;O Bean apenas chama dao.listar() e dao.calcularSalarios()" />
+    <option name="LAST_COMMIT_MESSAGE" value="DAO adicionado: Separa regras de negócio da persistência. &#10;PessoaSalarioDAO.java: acessa o banco e executa o cálculo de salários.&#10;PessoaSalarioService.java: para isolar lógica de negócios&#10;&#10;O Bean apenas chama dao.listar() e dao.calcularSalarios()" />
+  </component>
+</project>
