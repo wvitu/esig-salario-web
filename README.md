@@ -99,19 +99,9 @@ http://localhost:8080/esig-salario-web/listagem.xhtml
 
 ---
 
-## 🎯 Diferenciais para evolução
-
-- [ ] Exportação de relatório PDF com JasperReports
-- [ ] CRUD de pessoas e usuários
-- [ ] Login e autenticação com controle de acesso
-- [ ] Testes de unidade com JUnit
-- [ ] Agendamento automático de recalculações
-
----
-
 ## 🖼️ Captura de tela
 
-![Listagem de salários](docs/tela-listagem.png)
+![Listagem de salários](lista-de-pessoas-salarios.png)
 
 ---
 
@@ -123,7 +113,7 @@ http://localhost:8080/esig-salario-web/listagem.xhtml
 
 ## ✍️ Autor
 
-Desenvolvido por **Vitor Almeida** como parte de uma avaliação técnica prática.  
+Desenvolvido por **Wanderson Vitor** como parte de uma avaliação técnica prática.  
 Este projeto foi pensado para refletir boas práticas em Java Web com foco em clareza, separação de responsabilidades e fácil evolução futura.
 
 📅 19/07/2025
