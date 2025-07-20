@@ -14,26 +14,33 @@
     </h:form>
 
     <h:panelGroup rendered="#{pessoaSalarioBean.mostrarTabela}">
-    <h:form>
-        <h:dataTable value="#{pessoaSalarioBean.listaPessoas}" var="p" border="1">
-            <h:column>
-                <f:facet name="header">ID</f:facet>
-                #{p.pessoaId}
-            </h:column>
-            <h:column>
-                <f:facet name="header">Nome</f:facet>
-                #{p.nomePessoa}
-            </h:column>
-            <h:column>
-                <f:facet name="header">Cargo</f:facet>
-                #{p.nomeCargo}
-            </h:column>
-            <h:column>
-                <f:facet name="header">Salário</f:facet>
-                R$ #{p.salario}
-            </h:column>
-        </h:dataTable>'
-    </h:form>
+        <h:form>
+            <h:dataTable value="#{pessoaSalarioBean.paginaPessoas}" var="p" border="1">
+                <h:column>
+                    <f:facet name="header">ID</f:facet>
+                    #{p.pessoaId}
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Nome</f:facet>
+                    #{p.nomePessoa}
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Cargo</f:facet>
+                    #{p.nomeCargo}
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Salário</f:facet>
+                    R$ #{p.salario}
+                </h:column>
+            </h:dataTable>
+
+            <br/>
+            Página #{pessoaSalarioBean.paginaAtual} de #{pessoaSalarioBean.totalPaginas}
+
+            <h:commandButton value="Anterior" action="#{pessoaSalarioBean.paginaAnterior}" rendered="#{pessoaSalarioBean.paginaAtual > 1}" />
+            <h:commandButton value="Próxima" action="#{pessoaSalarioBean.proximaPagina}"
+                             rendered="#{pessoaSalarioBean.paginaAtual lt pessoaSalarioBean.totalPaginas}" />
+        </h:form>
     </h:panelGroup>
 </h:body>
 </html>

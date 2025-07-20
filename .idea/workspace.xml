@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21c9b0f2-4fac-4c0f-a3f4-312981dcbac0" name="Changes" comment="Print de tela adicionado para README">
+    <list default="true" id="21c9b0f2-4fac-4c0f-a3f4-312981dcbac0" name="Changes" comment="A listagem retorna vazia após recarregar a página, e somente após clicar no botão de calcular que recebemos a tabela de PessoaSalarioConsolidado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vitor/bean/PessoaSalarioBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vitor/bean/PessoaSalarioBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vitor/dao/PessoaSalarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vitor/dao/PessoaSalarioDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vitor/model/Cargo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vitor/model/Cargo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vitor/model/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vitor/model/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vitor/model/PessoaSalarioConsolidado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vitor/model/PessoaSalarioConsolidado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/listagem.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/listagem.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752900863571</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="A listagem retorna vazia após recarregar a página, e somente após clicar no botão de calcular que recebemos a tabela de PessoaSalarioConsolidado">
+      <option name="closed" value="true" />
+      <created>1752965395927</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1752965395928</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,7 +261,8 @@
     <MESSAGE value="DAO adicionado: Separa regras de negócio da persistência. &#10;PessoaSalarioDAO.java: acessa o banco e executa o cálculo de salários.&#10;PessoaSalarioService.java: para isolar lógica de negócios&#10;&#10;O Bean apenas chama dao.listar() e dao.calcularSalarios()" />
     <MESSAGE value="salvo" />
     <MESSAGE value="Print de tela adicionado para README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Print de tela adicionado para README" />
+    <MESSAGE value="A listagem retorna vazia após recarregar a página, e somente após clicar no botão de calcular que recebemos a tabela de PessoaSalarioConsolidado" />
+    <option name="LAST_COMMIT_MESSAGE" value="A listagem retorna vazia após recarregar a página, e somente após clicar no botão de calcular que recebemos a tabela de PessoaSalarioConsolidado" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
